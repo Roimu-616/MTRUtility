@@ -1,6 +1,10 @@
-package mtr;
+package mtr.forge;
 
 import dev.architectury.platform.forge.EventBuses;
+import mtr.CreativeModeTabs;
+import mtr.Main;
+import mtr.Registry;
+import mtr.RegistryObject;
 import mtr.item.ItemBlockEnchanted;
 import mtr.item.ItemWithCreativeTabBase;
 import mtr.mappings.BlockEntityMapper;
@@ -19,9 +23,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 
-@Mod(Main.MOD_ID)
-
-public class MainForge {
+public class MainForge{
 
     private static final DeferredRegisterHolder<Item> ITEMS = new DeferredRegisterHolder<>(Main.MOD_ID, ForgeUtilities.registryGetItem());
     private static final DeferredRegisterHolder<Block> BLOCKS = new DeferredRegisterHolder<>(Main.MOD_ID, ForgeUtilities.registryGetBlock());
