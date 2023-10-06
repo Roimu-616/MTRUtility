@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "highrails",
+  "version": "${version}",
+  "name": "MTR Utilitys Addon",
+  "description": "Add-on that adds features such as high-speed rail to MTR.",
+  "authors": [
+    "Yume2015"
+  ],
+  "contact": {
+    "homepage":"",
+    "sources":""
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mtr.fabric.MainFabric"
+    ],
+    "client": [
+      "mtr.fabric.MainFabricClient"
+    ],
+    "modmenu": [
+      "mtr.fabric.ModMenuApiImpl"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": "*",
+    "mtr": "*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "highrails:item/rail_connector_800_one_way",
+    "layer1": "highrails:item/rail_connector_selected"
+  }
+}

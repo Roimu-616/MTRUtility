@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "highrails:item/rail_connector_800_one_way"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "highralis:selected": 1
+      },
+      "model": "highrails:item/rail_connector_800_selected"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "highrails:item/rail_connector_450"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "highralis:selected": 1
+      },
+      "model": "highrails:item/rail_connector_450_selected"
+    }
+  ]
+}
